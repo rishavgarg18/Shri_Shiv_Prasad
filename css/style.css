@@ -408,6 +408,9 @@ button.cta-button:hover{
 		padding-bottom: 0%;
 		background-size: 100% 40%;
 	}
+	.brand{
+		font-size: 18px!important;
+	}
 	.hero-caption {
 		text-align: center;
 		padding: 40px 0px;
@@ -972,6 +975,11 @@ button.cta-button:hover{
 	align-items: center;
 	justify-content: space-evenly;
 	margin-top: 5%;
+}
+.head .left1,.right1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .head .left1 img{
 	width: 18vw;
