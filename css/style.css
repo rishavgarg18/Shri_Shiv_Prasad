@@ -989,3 +989,14 @@ button.cta-button:hover{
 	width: 18vw;
 	border-radius: 5%;
 }
+@media (max-width: 720px) {
+	.head{
+		flex-direction: column;
+	}
+	.head .left1 img {
+		width: 40vw;
+	}
+	.head .right1 img {
+		width: 40vw;
+	}
+}
