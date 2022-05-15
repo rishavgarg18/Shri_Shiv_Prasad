@@ -47,10 +47,10 @@ h6 {
 	font-weight: 700;
 }
 h1 span, h2 span, h3 span, h4 span {
-	color: #f4930b;
+	color: #0ca5c7;
 }
 .colored {
-	color: #f4930b;
+	color: #0ca5c7;
 }
 a {
 	color: #55acee;
@@ -148,7 +148,7 @@ blockquote {
 	text-align: left;
 }
 .subfooter {
-	background-color: #f4930b;
+	background-color: #0ca5c7;
 	padding: 40px 0;
 }
 .subfooter a {
@@ -166,17 +166,17 @@ color: #323232;
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #f58507
+	background-color: #0ca5c7
 	;
 }
 .btn-primary {
 	color: #fff;
-	background-color: #b3640b;
+	background-color: #0ca5c7;
 	border:0px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
 	color: #fff;
-	background-color: #b3640b;
+	background-color: #0ca5c7;
 	border:0px;
 }
 .transprant-bg {
@@ -232,7 +232,7 @@ color: #323232;
 	z-index: 2;
 	width: 100%;
 	height: 100%;
-	background-color: #d3871d;
+	background-color: #c54614;
 }
 
 .transprant-bg.blue:after {
@@ -471,12 +471,12 @@ button.cta-button:hover{
 }
 .btn-default {
 	color: #FFFFFF;
-	background: #f4930b;
+	background: #0ca5c7;
 	border: 0;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #f4930b;
+	background-color: #0ca5c7;
 	border: 0;
 }
 .media-left, .media > .pull-left {
@@ -509,7 +509,7 @@ button.cta-button:hover{
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #f4930b;
+	background-color: #0ca5c7;
 	color: #FFFFFF;
 	position: relative;
 	text-decoration: none;
@@ -535,7 +535,7 @@ button.cta-button:hover{
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #f4930b;
+	background-color: #0ca5c7;
 	color: #FFFFFF;
 }
 .panel-title a i {
@@ -549,8 +549,8 @@ button.cta-button:hover{
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #f58507;
-	border-color: #f58507;
+	background-color: #0ca5c7;
+	border-color: #0ca5c7;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -620,11 +620,11 @@ button.cta-button:hover{
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #f58507;
+	color: #0ca5c7;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #b3640b;
+	color: #0ca5c7;
 }
 
 /* carousel */
@@ -823,7 +823,7 @@ button.cta-button:hover{
 	margin: 10px 10px 0 10px;
 }
 .brand {
-	color: #b3640b;
+	color: #0ca5c7;
 	font-weight: 600;
 }
 .brand a:hover {
@@ -965,4 +965,19 @@ button.cta-button:hover{
 	.map {
 		width: 300px ;
 	}
+}
+.head{
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 5%;
+}
+.head .left1 img{
+	width: 18vw;
+	border-radius: 5%;
+}
+.head .right1 img{
+	width: 18vw;
+	border-radius: 5%;
 }
